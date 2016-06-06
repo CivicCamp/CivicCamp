@@ -1,9 +1,9 @@
 /* Civic Camp */
 
 body {
-	margin: 0;
-	padding: 1em;
+	padding: 0em;
 	background-color: #d04e4e;
+	margin: 0;
 }
 	
 
@@ -20,10 +20,13 @@ p a {
 	text-decoration: none;
 }
 
-.body {
+#page {
 	text-align: center;
 	display: block;
 	margin-top: 1%;
+	margin-left: auto;
+	width: 500px;
+	margin-right: auto;
 }
 
 
@@ -39,8 +42,8 @@ p.name {
 p.date {
   color: white;
   font-weight: 100;
- 	font-size: 2em;
-	margin: 1em 0 .5em;
+ 	font-size: 1.75em;
+	margin: .5rem 0;
 	padding: 0;
 }
 
@@ -99,7 +102,98 @@ p.updates {
 }
 
 
+.row.white {
+	background-color: white;
+	padding: 1.5em;
+}
 
+.row.white p {
+  color: #921e09;
+  font-size: .95rem;
+	text-align: center;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+#tickets p.ticket-footer {
+	font-size: .75rem;
+}
+
+
+
+
+/* SPEAKER */
+
+.speakers h2 {
+	font-weight: bold;
+	color: white;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.speakers {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+	vertical-align: top;
+
+}
+
+.speaker {
+	border: 1px solid white;
+	width: 400px;
+	display: inline-block;
+	margin-right: .5rem;
+	margin-left: .5rem;
+	vertical-align: top;
+	margin-bottom: 1rem;
+	text-align: left;
+	background-color: #921e09;
+}
+
+.speaker .photo {
+	display: inline-block;
+	width: 150px;
+	vertical-align: top;
+}
+
+
+.speaker .photo img {
+	width: 100%;
+	height: auto;
+	border-right: 1px solid silver;
+}
+
+.speaker .details {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding: .5rem .25rem;
+	width: 240px;
+}
+
+.speaker p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.speaker p.name {
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-bottom: .25rem;
+}
+
+.speaker p.org {
+	font-size: .9rem;
+	margin-bottom: .5rem;
+}
+
+.speaker p.role {
+	font-size: .75rem;
+	font-style: italic;
+}
 
 
 /* BLOCKS */
@@ -107,23 +201,6 @@ p.updates {
 #blocks {
 	margin-top: 1em;
 	clear: both;
-}
-
-#blocks p {
-	color: #fff;
-	font-size: .95rem;
-}
-
-#blocks a {
-	color: #fff;
-	border-bottom: 1px dotted #fff;
-}
-
-
-h4,
-h4 a {
-	color: #FFF;
-  font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 
@@ -140,13 +217,39 @@ h4 a {
 /* BLOCKS - Newsletter */
 
 .block {
-	width: 400px;
-	margin: 2em auto 1em;
-  background: rgba(157, 22, 6, 0.5);
-	border: 1px solid #921e09;
-	padding: 1em;
+	width: 90%;
+	margin: 2em 5% 1em;
+  vertical-align: top;
 }
 
+.block h4 {
+	color: #FFF;
+  font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-color: #921e09;
+	padding: .5em;
+	margin: 0 0 1em;
+}
+
+.block-inner {
+  border: 1px solid #921e09;
+  padding: ;
+	margin: 1em;
+	height: 320px;
+	vertical-align: top;
+	background-color: white;
+}
+
+.block p {
+	color: #921e09;
+	font-size: .95rem;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.block a {
+	color: #921e09;
+	border-bottom: 1px dotted #fff;
+}
 
 .block h2 {
 	color: teal;
@@ -173,6 +276,38 @@ h4.block-title {
 	font: bold 1.25rem "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	margin: 0;
 	padding-left: .5em;
-	text-align: center;
+	text-align: left;
 }
+
+@media only screen and (min-width: 768px) {
+
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.row.white p {
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+   .block { 
+    display: inline-block;
+   	width: 23%;
+   	margin-right: .5%;
+   	margin-left: .5%;
+   }
+
+   #tickets { 
+   	 width: 50%;
+   }
+
+}
+
+.tito-wrapper {
+	padding: 0;
+}
+
 

@@ -1,48 +1,174 @@
 <html>
 <title>Civic Camp</title>
 <head>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- place this in your head tag -->
   <script src='https://js.tito.io/v1' async></script>
   <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost/opencamps/github/OpenCamps/css/conferences-colors.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost/opencamps/github/OpenCamps/css/conferences-embed.css">
 
 </head>
 
 <body>
 
-  <div class="header">
-    <div class="icon-links">
-      <a href="https://www.twitter.com/Civic_Camp/" target="_blank"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.facebook.com/Civic-Camp-1062624427127104/" target="_blank"><i class="fa fa-facebook"></i></a>
-      <a href="mailto:info@civic.camp" target="_blank"><i class="fa fa-envelope"></i></a>
+  <div class="page">
+		
+		<div class="header">
+			<div class="icon-links">
+				<a href="https://www.twitter.com/Civic_Camp/" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/Civic-Camp-1062624427127104/" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="mailto:info@civic.camp" target="_blank"><i class="fa fa-envelope"></i></a>
+			</div>
 
-    </div>
+			<div id="logo"><img src="images/logo.svg"></div>
+			<p class="name">Civic Camp</p>
+			<p class="date">Sun Jul 10, 2016 2016</p>
+			<p class="venue">@ United Nations HQ</p>
+		</div>
+
+		<div class="row white">
+			<div class="row inner">
+				<p><strong>A conference focused on the creation, use and sharing of innovative open source solutions for civic, public sector and government needs.</strong></p>
+				<p>We are a community-organized conference, run on a not-for-profit basis by open source community volunteers.</p>
+			</div>
+		</div>
+
+		<div class="row speakers">
+			<div class="row inner">
+
+        <h2>Speakers</h2>
+
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-ahoppin.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Andrew Hoppin</p>
+            <p class="org">NuCivic</p>
+            <p class="role">President & Co-Founder</p>
+          </div>
+				</div>
+				
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-bkallos.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Ben Kallos</p>
+            <p class="org">NYC City Council</p>
+            <p class="role">Chair of Governmental Operations Committee</p>
+          </div>
+				</div>
+
+<!--				
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-rblair.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Ryan Blair</p>
+            <p class="org">NY State Senate</p>
+            <p class="role">Digital Director</p>
+          </div>
+				</div>
+
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-tcrommie.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Timothy Crommie</p>
+            <p class="org">NY State Office of Information Technology Services</p>
+            <p class="role">WebNY Platform Operations and Development Director</p>
+          </div>
+				</div>
+
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-reden.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Rob Eden</p>
+            <p class="org">Heartland Technology Group</p>
+            <p class="role">Sr Systems Engineer for US Dep't. of Agriculture</p>
+          </div>
+				</div>
+				
+				<div class="speaker">
+  				<div class="photo">
+            <img src="images/speaker-rwilliams.jpg">  
+          </div>
+          <div class="details">
+            <p class="name">Ron Williams</p>
+            <p class="org">Heartland Technology Group</p>
+            <p class="role">Systems/DevOps Admin for US Dep't. of Agriculture Enterprise Application Services</p>
+          </div>
+				</div>
+-->
+
+
+
+			</div>
+		</div>
+
+		<div class="row white">
+			<div class="row inner">
+				<p class="updates"><strong>A key objective of Civic Camp is to help support creation of a turnkey and comprehensive suite of free open source software solutions for major governmental needs.</strong></p>
+				<p class="updates">We do this through a combination of presentation, collaboration, fundraising and code/contribution sprints.</p>
+			</div>
+		</div>
+
+		<div id="blocks">
+
+			<div id="proposals" class="block">
+				<div class="block-inner">
+					<h4 class="block-title">Session Proposals</h4>    
+					<p>Do you have interesting insights to share about civic open source technology?</h4>
+					<p><strong><a href="http://goo.gl/forms/p6xEqG7i9U" target="_blank">Propose a Session </a></strong></h4>
+				</div>
+			</div>
  
-  </div>
+ 			<div id="tickets" class="block">
+				<div class="block-inner">
+  				<h4 class="block-title">Tickets</h4>    
+					<p><tito-widget event="civic-camp/civic-camp-2016"></tito-widget></p>
+		  		<p class="ticket-footer">You don't need to purchase a ticket for Civic Camp if you've already purchased a ticket for another Open Camps event on the same day.</p>
+  			</div>
+			</div>
  
-  <div class="body">
-   <div>
-      <img src="images/logo.svg" id="logo">
+			<div id="questions" class="block">
+				<div class="block-inner">
+					<h4 class="block-title">Contact Us</h4>    
+					<p class="updates strong">Please send us an email at <a href="mailto:info@civic.camp">info@civic.camp</a> if you have any questions or want to get involved.</p>
+				</div>
+			</div>
+
+		 </div>
+
+    <div id="opencamps-embed">
+			<div class="oc-intro">
+				 <div class="oc-logo"> 
+						<a href="http://opencamps.org" target="_blank"><img src="http://opencamps.org/images/icons/logo-oc-gr.png"></a>
+				</div>
+				<div class="oc-text">
+          <p><strong>Interested in other open source technologies?</strong></>
+          <p>Check out the many <a href="http://opencamps.org" target="_blank">Open Camps</a> conferences!</>
+				</div>
+			</div>
+
+
+
+
+      <div id="conferences"></div>
     </div>
-      <p class="name">Civic Camp</p>
-      <p class="date">Sun Jul 10, 2016 2016</p>
-      <p class="venue">@ United Nations HQ</p>
-      <p class="updates">A community-run conference focused on civic and government use of open source technologies</p>
-      <p class="updates strong">Please send us an email at <a href="mailto:info@civic.camp">info@civic.camp</a> if you have any questions or want to get involved.</p>
-    <h4><a href="http://goo.gl/forms/p6xEqG7i9U" target="_blank">Propose your session here: http://goo.gl/forms/p6xEqG7i9U</a></h4>
 
-  </div>
+	</div>
 
-  <div id="blocks">
- 
- 	  <div id="register" class="block">
-  		<h4 class="block-title">Tickets</h4>    
-      <tito-widget event="civic-camp/civic-camp-2016"></tito-widget>
-      <p>You don't need to purchase a ticket for Civic Camp if you've already purchased a ticket for another Open Camps event on the same day.</p>
-    </div>
-
-   </div>
+  <script src="http://opencamps.org/js/getConferencesBlock.js"></script>
+  <script src="http://opencamps.org/js/listConferences.js"></script>
+  <script src="js/oc.js"></script>
 
 </body>
 
